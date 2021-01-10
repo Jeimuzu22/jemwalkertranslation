@@ -93,7 +93,9 @@ header .content .wreath {
 
 header .content .wreath img {
 	width: 200px;
+    text-decoration: none;
 }
+
 
 @media screen and (max-width: 600px) {
     .caption {
@@ -285,6 +287,7 @@ nav .logo img {
 
 #About p {
 	margin-left: 70px;
+    max-width: 550px;
 }
 
 #About b {
