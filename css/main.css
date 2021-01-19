@@ -294,6 +294,12 @@ nav .logo img {
 	color:var(--goldn);
 }
 
+#About a {
+	color:var(--goldn);
+    border-bottom: 1px solid;
+    padding-bottom: 3px;
+}
+
 #About img {
     border-radius: 50%;
     margin-top: 50px;
