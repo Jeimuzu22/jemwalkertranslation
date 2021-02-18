@@ -361,10 +361,10 @@ nav .logo img {
 
 }
 /* -------------------- RECOMMENDATIONS SECTION -------------------- */
-/*
+
 #Recommendations {
-	background-color: var(--lteal);
-	color: var(--dream);
+	background-color: var(--dream);
+	color: var(--dteal);
 	position: static;
 	top: 165vh;
 }
@@ -379,9 +379,18 @@ nav .logo img {
 	border-radius: 100%;
 }
 
+#Recommendations img .asiatislogo {
+	width: 200px;
+	border-radius: 0%;
+}
+
 #Recommendations .recname {
 	text-align: center;
-}*/
+}
+
+#Recommendations .testimtext {
+    vertical-align: middle;
+}
 
 /* -------------------- LINKS SECTION -------------------- */
 
