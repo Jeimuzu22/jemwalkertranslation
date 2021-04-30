@@ -360,6 +360,116 @@ nav .logo img {
     }
 
 }
+
+
+/* -------------------- SERVICES SECTION -------------------- */
+
+#Services {
+	background-color: var(--lteal);
+	position: static;
+	top: 300vh;
+}
+
+#Services h2 {
+	color: var(--dream) ;
+    line-height: 1;
+}
+
+#Services h3 {
+	color: var(--goldn) ;
+    line-height: 1;
+    font-family: Averia Bold;
+    padding-left: 10vw;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+#Services .plusTitle {
+	text-align: center;
+}
+
+#Services p {
+	text-align: center;
+}
+
+#Services .servSub {
+	font-style: italic;
+    font-family: 'Inconsolata', sans-serif;
+    padding-left: 13vw;
+    color: var(--goldn) ;
+    text-align: left;
+    margin-top: 0px;
+}
+
+#Services .terpServTable1, #Services .transServTable {
+    margin-top: 40px;
+}
+
+#Services ul {
+	text-align: center;
+    list-style-type:none;
+    padding-left: 0;
+    margin-top: 70px;
+}
+
+#Services ul.moreServTable {
+    margin-top: 40px;
+}
+
+
+#Services li {
+    display: inline;
+	background-color: white;
+	padding: 20px;
+	margin: 20px 10px;
+}
+
+#Services .arrow {
+	background-color: transparent;
+    margin: 10px 0;
+    padding: 0;
+}
+
+#Services a {
+	color: var(--dteal);
+	text-decoration: none;
+}
+    
+#Services li img {
+	width: 60px;
+    display: inline;
+    float: none;
+    margin: 0;
+    background-color: none;
+}
+
+@media screen and (max-width: 800px) {
+    #Services ul {
+	text-align: center;
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    }
+    
+#Services h2 {
+	text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#Services li {
+	margin: 20px 0 0 0;
+    display: block;
+}
+
+@media screen and (max-width:600px) {
+    #Services h2 {
+    font-size: 10vw;
+        line-height: 14vw;
+}
+
+}}
+
 /* -------------------- RECOMMENDATIONS SECTION -------------------- */
 
 #Recommendations {
@@ -391,6 +501,22 @@ nav .logo img {
 #Recommendations .testimtext {
     vertical-align: middle;
 }
+
+@media screen and (max-width: 800px) {
+   
+    
+#Recommendations h2 {
+	text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+}
+@media screen and (max-width:600px) {
+    #Recommendations h2 {
+    font-size: 10vw;
+        line-height: 14vw;
+    }}
 
 /* -------------------- LINKS SECTION -------------------- */
 
