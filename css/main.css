@@ -616,7 +616,7 @@ nav .logo img {
 /* -------------------- CONTACT SECTION -------------------- */
 
 #Contact {
-	background-color: var(--dteal);
+	background-color: white;
 	color: var(--dream);
 	position: static;
 	top: 270vh;
