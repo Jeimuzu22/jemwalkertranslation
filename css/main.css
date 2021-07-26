@@ -456,9 +456,27 @@ nav .logo img {
     margin: 0 auto;
 }
 
+#Services h3 {
+    padding-left: 0;
+    margin-top: 50px;
+    margin-bottom: 5px;
+	text-align: center;
+}
+
+#Services .servSub {
+    padding-left: 0;
+    text-align: center;
+    margin-top: 0px;
+}
+
 #Services li {
 	margin: 20px 0 0 0;
     display: block;
+}
+
+#Services .arrow {
+	transform: rotate(90deg);
+	margin: 30px 0;
 }
 
 @media screen and (max-width:600px) {
@@ -482,6 +500,9 @@ nav .logo img {
 	margin-left: 5vw;
 }
 
+#Recommendations table .lowWidthTable {
+	visibility: hidden;
+}
 
 #Recommendations img {
 	width: 200px;
@@ -508,6 +529,14 @@ nav .logo img {
 	text-align: center;
     width: 100%;
     margin: 0 auto;
+}
+
+#Recommendations table #highWidthTable {
+	visibility: hidden;
+}
+
+#Recommendations table #lowWidthTable {
+	visibility: visible;
 }
 
 }
