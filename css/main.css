@@ -96,7 +96,6 @@ header .content .wreath img {
     text-decoration: none;
 }
 
-
 @media screen and (max-width: 600px) {
     .caption {
         font-size: 10px;
@@ -188,13 +187,13 @@ nav .logo a:hover {
 	color: rgba(255,255,255,1);
 }
 
-nav .links {
+nav .topNavHorizLinks {
 	position: absolute;
 	right: 0;
 	float: right;
 }
 
-nav .links ul {
+nav .topNavHorizLinks ul {
 	list-style: none;
 	display: block;
 	list-style-type: none;
@@ -203,21 +202,60 @@ nav .links ul {
     overflow: hidden;
 }
 
-nav .links li {
+nav .topNavHorizLinks li {
 	display: block;
 	padding: 15px;
 	float: right;
 	color: rgba(255,255,255,0.6);
 }
 
-nav .links li a {
+nav .topNavHorizLinks li a {
 	padding: 10px;
 	text-decoration: none;
 }
 
-nav .links li:hover {
+nav .topNavHorizLinks li:hover {
 	text-transform: uppercase;
 	color: rgba(255,255,255,1);
+}
+
+nav .topNavVertiLinkHamburger {
+	display: none;
+	padding: 15px;
+}
+
+nav #topNavVertiLinks {
+	display: none;
+	width: 100%;
+	text-align: center;
+	color: white;
+	background-color: var(--dteal);
+	margin-top: 50px;
+	font-size: 20px;
+	list-style: none;
+}
+
+nav #topNavVertiLinks a {
+	padding: 0 40px;
+}
+
+.topNavVertiLinkHamburger:hover {
+	color: var(--goldn);
+}
+
+@media screen and (max-width: 800px) {
+	nav .horizOnly {
+		display: none;
+	}
+	nav .topNavVertiLinkHamburger {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	#topNavVertiLinks {
+		display: none;
+	}
 }
 
 nav .logo img {
@@ -447,8 +485,12 @@ nav .logo img {
 	text-align: center;
     list-style-type: none;
     margin-bottom: 0;
-    padding-bottom: 0;
+    padding-bottom: 20px;
     }
+
+	#Services li {
+		margin: 5px;
+	}
     
 #Services h2 {
 	text-align: center;
@@ -469,14 +511,9 @@ nav .logo img {
     margin-top: 0px;
 }
 
-#Services li {
+#Services .moreServTable li {
 	margin: 20px 0 0 0;
     display: block;
-}
-
-#Services .arrow {
-	transform: rotate(90deg);
-	margin: 30px 0;
 }
 
 @media screen and (max-width:600px) {
@@ -485,7 +522,7 @@ nav .logo img {
         line-height: 14vw;
 }
 
-}}
+}} 
 
 /* -------------------- RECOMMENDATIONS SECTION -------------------- */
 
@@ -494,14 +531,15 @@ nav .logo img {
 	color: var(--dteal);
 	position: static;
 	top: 165vh;
+	text-align: justify;
 }
 
-#Recommendations table {
-	margin-left: 5vw;
+#Recommendations #highWidthTable {
+	margin-left: 2vw;
 }
 
-#Recommendations table .lowWidthTable {
-	visibility: hidden;
+#Recommendations #lowWidthTable {
+	display: none
 }
 
 #Recommendations img {
@@ -509,13 +547,24 @@ nav .logo img {
 	border-radius: 100%;
 }
 
-#Recommendations img .asiatislogo {
-	width: 200px;
-	border-radius: 0%;
+#Recommendations img {
+	float: none;
 }
 
-#Recommendations .recname {
+#Recommendations #lowWidthTable img {
+	margin-top: 50px;
+}
+
+#Recommendations #highWidthTable img {
+	margin-top: 140px;
+}
+
+#Recommendations .testimImageLowWidthCell {
 	text-align: center;
+}
+
+#Recommendations .recName {
+	text-align: right;
 }
 
 #Recommendations .testimtext {
@@ -524,19 +573,18 @@ nav .logo img {
 
 @media screen and (max-width: 800px) {
    
-    
 #Recommendations h2 {
 	text-align: center;
     width: 100%;
     margin: 0 auto;
 }
 
-#Recommendations table #highWidthTable {
-	visibility: hidden;
+#Recommendations #highWidthTable {
+	display: none;
 }
 
-#Recommendations table #lowWidthTable {
-	visibility: visible;
+#Recommendations #lowWidthTable {
+	display: block;
 }
 
 }
