@@ -113,6 +113,8 @@ header .content .wreath img {
 /* -------------------- CORNERS -------------------- */
 
 .slogan {
+	font-family: 'Caudex', serif;
+	font-weight: 700;
 	position: absolute;
 	color: rgba(255,255,255,1);
 	top: 55px;
