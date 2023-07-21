@@ -122,6 +122,14 @@ header .content .wreath img {
 	left:15px;
 }
 
+.myName {
+	font-size: 50px;
+}
+
+.jobTitle {
+	font-size: 30px;
+}
+
 .credit {
 	position: absolute;
 	color: rgba(255,255,255,0.5);
