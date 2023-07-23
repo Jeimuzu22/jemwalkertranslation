@@ -561,10 +561,8 @@ nav .logo img {
 #Recommendations img {
 	width: 200px;
 	border-radius: 100%;
-}
-
-#Recommendations img {
 	float: none;
+	vertical-align: top;
 }
 
 #Recommendations #highWidthTable img {
