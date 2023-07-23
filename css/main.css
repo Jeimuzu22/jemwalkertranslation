@@ -567,6 +567,10 @@ nav .logo img {
 	float: none;
 }
 
+#Recommendations #highWidthTable img {
+	margin-top: 50px;
+}
+
 #Recommendations #lowWidthTable img {
 	margin-top: 50px;
 }
