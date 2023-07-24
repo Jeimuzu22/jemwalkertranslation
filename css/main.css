@@ -720,6 +720,7 @@ nav .logo img {
 @media screen and (max-width:600px) {
     #Contact h2 {
         margin-bottom: 40px;
+		text-align: center;
     }
     #Contact {
     padding-bottom: 110px;
