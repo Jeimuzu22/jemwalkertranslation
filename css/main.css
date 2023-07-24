@@ -596,11 +596,11 @@ nav .logo img {
     margin: 0 auto;
 }
 
-#Recommendations #highWidthTable {
+#Recommendations .highWidthTable {
 	display: none;
 }
 
-#Recommendations #lowWidthTable {
+#Recommendations .lowWidthTable {
 	display: block;
 }
 
