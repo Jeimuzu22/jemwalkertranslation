@@ -550,11 +550,11 @@ nav .logo img {
 	text-align: justify;
 }
 
-#Recommendations #highWidthTable {
+#Recommendations .highWidthTable {
 	margin-left: 2vw;
 }
 
-#Recommendations #lowWidthTable {
+#Recommendations .lowWidthTable {
 	display: none
 }
 
@@ -568,11 +568,11 @@ nav .logo img {
 	vertical-align: top;
 }
 
-#Recommendations #highWidthTable img {
+#Recommendations .highWidthTable img {
 	margin-top: 50px;
 }
 
-#Recommendations #lowWidthTable img {
+#Recommendations .lowWidthTable img {
 	margin-top: 50px;
 }
 
