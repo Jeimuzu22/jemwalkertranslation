@@ -14,7 +14,6 @@ a {
 }
 
 a:hover {
-	text-transform: uppercase;
 	color: rgba(218, 206, 188,1);
 }
 
@@ -229,7 +228,6 @@ nav .topNavHorizLinks li a {
 }
 
 nav .topNavHorizLinks li:hover {
-	text-transform: uppercase;
 	color: rgba(255,255,255,1);
 }
 
