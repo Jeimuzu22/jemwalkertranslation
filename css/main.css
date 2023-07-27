@@ -85,8 +85,27 @@ header .content .caption {
 	font-size: 20px;
 }
 
+header .content .callToAction {
+	margin: 5vh auto;
+	padding: 10px;
+	position: relative;
+	display: block;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	background-color: var(--goldn);
+	color: white;
+	max-width: 200px;
+	text-align: center;
+}
+
+header .content .callToAction:hover {
+	background-color: white;
+	color: var(--dteal);
+}
+
 header .content .wreath {
-	padding-top: 9vh;
+	margin-top: 6vh;
 	position: relative;
 	display: block;
 }
@@ -715,17 +734,17 @@ nav .logo img {
 	color: var(--rosie);
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     #Contact h2 {
-        margin-bottom: 40px;
+        margin-bottom: 0;
 		text-align: center;
     }
     #Contact {
-    padding-bottom: 110px;
+    padding-bottom: 0;
     }
 }
 
-/* -------------------- FORM -------------------- */
+/* -------------------- FORM -------------------- */ /*
   .formContainer label {
 	color: var(--dteal);
   }
@@ -756,7 +775,7 @@ nav .logo img {
 	border-radius: 5px;
 	background-color: #ffffff;
 	padding: 20px;
-  } 
+  } */
 
 /* -------------------- FOOTER SECTION, CANNIBALIZED WHOLEHEARTEDLY FROM ANOTHER PROJECT -------------------- */
 
