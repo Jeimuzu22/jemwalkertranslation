@@ -50,7 +50,7 @@ header {
 	position: absolute;
 	height: 100vh;
 	width: 100%;
-	background: url("../images/headerbg.jpg");
+	background: url("../images/umbrellasbg.jpg");
 	background-attachment: fixed;
 	background-size: cover;
 	top: 0;
@@ -58,38 +58,39 @@ header {
 
 header .content {
 	width: auto;
-	max-width: 500px;
+	max-width: 1200px;
 	padding: 10px;
-	margin: 0 auto;
-	margin-top: 40vh;
-	text-align: center;
+	margin: 0 10vh;
+	margin-top: 20vh;
+	text-align: left;
 	color: white;
 }
 
-header .content .headlineFrench, header .content .headlineEnglish {
+header .content .newHeadline {
 	font-family: 'Caudex', serif;
 	font-weight: 700;
-	font-size: 100px;
-	margin-bottom: 0px
+	line-height: 1;
+	font-size: 60px;
+	margin-bottom: 0px;
+	text-align: left;
+}
+
+header .content .newHeadline p {
+	margin: 2vh 0;
 }
 
 header .content .headlinecontainer {
-	height:100px;
 	margin-bottom: 20px
 }
 
 header .content .caption {
     margin-top: 30px;
-	position: relative;
-	display: block;
 	font-size: 20px;
 }
 
 header .content .callToAction {
-	margin: 5vh auto;
+	margin: 5vh 0;
 	padding: 10px;
-	position: relative;
-	display: block;
 	font-size: 15px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -120,12 +121,18 @@ header .content .wreath img {
         font-size: 10px;
         margin-top: 0;
     }
-    header .content .headlineFrench, header .content .headlineEnglish {
-	   font-size: 15vw;
-    }
     .headlinecontainer {
         margin-top: -70px;
     }
+}
+@media screen and (max-height: 800px) {
+	header .content {
+		margin-top: 80px;
+		margin-left: 20px;
+	}
+	.slogan {
+		display: none;
+	}
 }
 
 /* -------------------- CORNERS -------------------- */
@@ -339,109 +346,6 @@ nav .logo img {
 	position: absolute;
 	top: 100vh;
 	padding: 0;
-}
-
-/* -------------------- SERVICES SECTION -------------------- */
-
-#Services {
-	background-color: var(--lteal);
-	position: static;
-	top: 300vh;
-}
-
-#Services h2 {
-	color: var(--dream) ;
-    line-height: 1;
-}
-
-#Services h3 {
-	color: var(--goldn) ;
-    line-height: 1;
-	font-family: 'Caudex', serif;
-	font-weight: 700;
-    padding-left: 10vw;
-    margin-top: 50px;
-    margin-bottom: 5px;
-}
-
-#Services a {
-	color: var(--lteal);
-	text-decoration: none;
-	font-weight: bold;
-}
-
-#Services .servTableThin {
-	display: none;
-}
-
-#Services .servTable, #Services .servTableThin {
-	margin: 0 auto;
-	border-spacing: 40px;
-	border: none;
-}
-
-#Services .servTableThin {
-	border-spacing: 0 40px;
-}
-
-#Services .servTable h3, #Services .servTableThin h3 {
-	padding: 0;
-	margin: 0;
-	text-align: center;
-}
-
-#Services .servTable td, #Services .servTableThin td {
-	vertical-align: top;
-	background: #fff;
-	max-width: 400px;
-	border: none;
-}
-
-#Services .servTableThin td {
-	max-width: 100%;
-}
-
-#Services .servTable .servTextCont, #Services .servTableThin .servTextCont {
-	margin: 40px;
-
-}
-
-#Services .servTable .servImgCont, #Services .servTableThin .servImgCont {
-	width: 100%;
-}
-
-#Services .servTable .servImgCont img, #Services .servTableThin .servImgCont img {
-	margin: 0;
-	padding: 0;
-	float: none;
-	width: 100%;
-	max-width: none;
-}
-
-#Services .languageTag {
-	padding: 15px 0 0 0;
-	text-align: center;
-}
-
-#Services .languageTag li {
-	display:inline-block;
-	font-size: 9pt;
-	text-transform: uppercase;
-	padding: 3px 6px;
-	margin: 3px;
-	color: var(--lteal);
-	font-weight: bold;
-	background-color: var(--dream);
-}
-
-@media screen and (max-width: 800px) {
-    #Services .servTableThin {
-		display: inline;
-	}
-	
-	#Services .servTable {
-		display: none;
-	}
 }
 
 /* -------------------- FOOTER SECTION, CANNIBALIZED WHOLEHEARTEDLY FROM ANOTHER PROJECT -------------------- */

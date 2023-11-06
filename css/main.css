@@ -349,6 +349,7 @@ nav .logo img {
 	background-color: white ;
 	color: var(--dteal);
     min-height: 580px;
+	padding-bottom: 0;
 }
 
 #About h2 {
@@ -402,8 +403,11 @@ nav .logo img {
 @media screen and (max-width: 600px) {
         #About p {
 	   width: 100%;
-         padding: 10px;
+         padding: 0 10px;
     }
+	#About .pagecontent {
+		padding-bottom: 50px;
+	}
 
 }
 
@@ -429,6 +433,21 @@ nav .logo img {
         text-align: left;
     }
 
+}
+
+/* -------------------- PULLQUOTE SECTION -------------------- */
+
+#Pullquote {
+	background-color: var(--goldn);
+	color: white;
+	text-align: center;
+	font-family: 'Caudex', serif;
+	font-size: 30px;
+}
+
+#Pullquote .pagecontent {
+	max-width: 800px;
+	padding-bottom: 30px;
 }
 
 /* -------------------- SERVICES SECTION -------------------- */
